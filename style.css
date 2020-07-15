@@ -1,0 +1,97 @@
+/* #679B9B
+#AACFCF
+#FDE2E2
+#FFB6B6 */
+
+/* Basic html styles */
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #252a34;
+  margin: auto;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+  color: #eaeaea;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/* Head */
+.head {
+  background-color: #3797a4;
+  padding: 1rem;
+  font-weight: 300;
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  font-size: 1rem;
+}
+
+.head h4 {
+  font-weight: 300;
+  color: #eaeaea;
+}
+
+/* Title */
+
+#title {
+  background-image: url(./title.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 30rem;
+  justify-items: center;
+}
+
+#title h1 {
+  padding: 7% 10%;
+  font-family: "Lobster Two", cursive;
+  font-size: 4rem;
+  text-align: right;
+  color: #3797a4;
+}
+
+/* Tribute */
+
+#tribute {
+  padding: 7% 15%;
+  background-color: #eaeaea;
+}
+
+#tribute img {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  margin-bottom: 2%;
+}
+
+#tribute p {
+  font-size: 1.5rem;
+  text-align: right;
+}
+
+/* Greetings */
+
+.card {
+  margin: 5% auto;
+}
+
+#greetings {
+  background-color: #fa9191;
+}
+
+.card-img-top {
+  height: 10rem;
+}
+
+/* Footer */
+
+footer {
+  padding: 3% 5%;
+  background-color: #eaeaea;
+}
